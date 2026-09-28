@@ -1,0 +1,35 @@
+{
+  "name": "@journey-to-code/open-state-machine",
+  "version": "1.0.0",
+  "description": "Small dependency-free finite state machine with guarded transitions and transition hooks.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "state-machine",
+    "fsm",
+    "workflow",
+    "state"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
